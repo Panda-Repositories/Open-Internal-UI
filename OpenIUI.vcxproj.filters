@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MainInit.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryptions.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>Internal GUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_demo.cpp">
+      <Filter>Internal GUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>Internal GUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_dx11.cpp">
+      <Filter>Internal GUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>Internal GUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\TextEditor.cpp">
+      <Filter>Internal GUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InternalUI.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleColors.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>Internal GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>Internal GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>Internal GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_dx11.h">
+      <Filter>Internal GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>Internal GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>Internal GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>Internal GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>Internal GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_rect_pack.h">
+      <Filter>Internal GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_textedit.h">
+      <Filter>Internal GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_truetype.h">
+      <Filter>Internal GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\TextEditor.h">
+      <Filter>Internal GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePipe.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Internal GUIs">
+      <UniqueIdentifier>{7dddd0a9-9197-4021-8e0e-f68c69c87477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{9ec2c186-c601-4349-a5ba-18d3c50ad3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal GUIs\NewFilter1">
+      <UniqueIdentifier>{53135c21-7d45-41a1-b07e-1c5f122e8cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{1a27e33b-14b2-44ae-a005-de53fad034ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libMinHook.x86.lib">
+      <Filter>Internal GUIs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
